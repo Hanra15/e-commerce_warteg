@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>WARTEG JAWA</title>
+  <title>WARTEG Barokah Cibinong</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -48,7 +48,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="#">Warung Tegal BAHARI</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="#">WARTEG BAROKAH CIBINONG</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -70,10 +70,10 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Selamat datang di <span>Warung Tegal Bahari</span> Cibinong</h1>
-
+          <h1>Selamat datang di <span>Warteg Barokah</span> Cibinong</h1>
+          <p>Klik tombol dibawah untuk memulai pemesanan</p>
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Menu</a>
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Pesan</a>
           </div>
         </div>
         
@@ -95,11 +95,11 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Warung Tegal Bahari</h3>
-            <p class="fst-italic">
-              Warung Tegal atau disebut juga (Warung Tegal Bahari) adalah salah satu jenis usaha gastronomi yang menyediakan makanan dan minuman dengan harga terjangkau. Biasa juga disingkat Warteg, nama ini cenderung menjadi istilah umum untuk warung makan kelas menengah ke bawah di pinggir jalan, baik yang berada di kota Tegal maupun di tempat lain, baik yang dikelola oleh orang asal Tegal maupun dari daerah lain. Warung tegal pada awalnya banyak dikelola oleh masyarakat dari dua desa di Kabupaten Tegal. Mereka mengelola warung tegal secara bergiliran (antar keluarga dalam satu ikatan famili) setiap 3 s/d 4 bulan. Yang tidak mendapat giliran mengelola warung biasanya bertani di kampung halamannya. Pengelola warung tegal di Jakarta yang asli orang Tegal biasanya tergabung dalam Koperasi Warung Tegal, yang populer dengan singkatan Kowarteg. Kowarteg hingga saat ini masih diketuai oleh Sastoro.
+            <h3>Warung Tegal Barokah Cibinong</h3>
+            <p class="">
+              Warung Tegal atau disebut juga (Warung Tegal Bahari) adalah salah satu jenis usaha gastronomi yang menyediakan makanan dan minuman dengan harga terjangkau. Biasa juga disingkat Warteg, nama ini cenderung menjadi istilah umum untuk warung makan kelas menengah ke bawah di pinggir jalan, baik yang berada di kota Tegal maupun di tempat lain, baik yang dikelola oleh orang asal Tegal maupun dari daerah lain. 
               <br><br>
-              Hidangan-hidangan di warteg pada umumnya bersifat sederhana dan tidak memerlukan peralatan dapur yang sangat lengkap. Nasi goreng dan mi instan hampir selalu dapat ditemui, demikian pula makanan ringan seperti pisang goreng, minuman seperti kopi, teh dan minuman ringan. Beberapa warung tegal khusus menghidangkan beberapa jenis makanan, seperti sate tegal, gulai dan minuman khas Tegal teh poci.
+              Hidangan-hidangan di warteg kami sangat lengkap, adapun menu yang sering dibeli oleh pelanggan diantaranya telor dadar, tempe orek, tongkol, opor ayam, dan jengkol. menu-menu tersebut menjadi favorit para pelanggan warteg barokah.
             </p>
           </div>
         </div>
