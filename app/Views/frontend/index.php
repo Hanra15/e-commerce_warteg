@@ -28,12 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Restaurantly - v3.7.0
-  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -43,7 +37,7 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span><a href="https://wa.me/081283215772" target="_blank">08123456789</a></span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span><a href="https://wa.me/082123803817" target="_blank">+62 821-2380-3817</a></span></i>
         <i class="bi bi-clock d-flex align-items-center ms-4"><span> Senin-Minggu: 07.00-23.00</span></i>
       </div>
 
@@ -122,7 +116,7 @@
           <p>Menu Warteg Kami</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -131,14 +125,14 @@
               <li data-filter=".filter-specialty">Specialty</li>
             </ul>
           </div>
-        </div>
+        </div> -->
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+            <img src="img/menu/menu_telurdadar.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#" class="">Telur Dadar</a><span>Rp. 4.000</span>
+              <a href="#" class="">Telur Dadar</a><span>Rp. 4.000,-</span>
               
             </div>
             <div class="menu-ingredients">
@@ -147,92 +141,63 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="img/menu/bread-barrel.jpg" class="menu-img" alt="">
+            <img src="img/menu/menu_tongkol.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
+              <a href="#">Tongkol</a><span>Rp. 4.000,-</span>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="https://wa.me/081283215772"><span>Pesan</span></a>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="img/menu/cake.jpg" class="menu-img" alt="">
+            <img src="img/menu/menu_oporayam.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
+              <a href="#">Opor Ayam</a><span>Rp. 7.000,-</span>
             </div>
             <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              <a href="https://wa.me/081283215772"><span>Pesan</span></a> 
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
-            <img src="img/menu/caesar.jpg" class="menu-img" alt="">
+            <img src="img/menu/menu_tempeorek.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
+              <a href="#">Tempe Orek</a><span>Rp. 3.000,-</span>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="https://wa.me/081283215772"><span>Pesan</span></a>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="img/menu/menu_jengkol.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              <a href="#">Jengkol</a><span>Rp. 4.000,-</span>
             </div>
             <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+              <!-- <div class="input-group">
+                <span class="input-group-btn">
+                  <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus" data-field="">
+                    <span class="bx bx-minus"></span>
+                  </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="0" max="100">
+                <span class="input-group-btn">
+                  <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                    <span class="bx bx-plus"></span>
+                  </button>
+                </span>
+              </div> -->
+              <a href="https://wa.me/081283215772"><span>Pesan</span></a>
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="img/menu/mozzarella.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="img/menu/greek-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="img/menu/spinach-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="img/menu/lobster-roll.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
-            </div>
-          </div>
-
-        </div>
 
       </div>
     </section><!-- End Menu Section -->
 
     <!-- ======= Specials Section ======= -->
-    <section id="specials" class="specials">
+    <!-- <section id="specials" class="specials">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -327,16 +292,11 @@
         </div>
 
       </div>
-    </section><!-- End Specials Section -->
-
-
-
-    
-
-    
+    </section> -->
+    <!-- End Specials Section -->
 
     <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
+    <!-- <section id="gallery" class="gallery">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -416,7 +376,8 @@
         </div>
 
       </div>
-    </section><!-- End Gallery Section -->
+    </section> -->
+    <!-- End Gallery Section -->
 
     
 
@@ -448,42 +409,36 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3>Warung Tegal Bahari Cibinong</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Ruko Pelangi (warteg barokah) <br>
+                Samping perum permata bintang,<br>
+                Kab.Bogor, Cibinong, Jawa Barat, ID, 16912<br><br>
               </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+              <a href="https://wa.me/082123803817" target="_blank"><strong>Phone:</strong> +62 821 2380 3817<br></a>
+              <a href="mailto:wartegcibinong@gmail.com"><strong>Email:</strong> wartegcibinong@gmail.com<br></a>
+              
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Tautan</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#menu">Menu</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak kami</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Menu</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Telur Dadar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Tongkol</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Opor Ayam</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Tempe Orek</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Jengkol</a></li>
             </ul>
           </div>
 
@@ -493,7 +448,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>RPLL_Kel_B</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>RPLL_Kel_3</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->
