@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>WARTEG Barokah Cibinong</title>
-  <meta content="" name="description">
+  <title>WARTEG Barokah</title>
+  <meta content="Warung Tegal Barokah Cibinong" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
