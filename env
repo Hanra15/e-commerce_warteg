@@ -14,7 +14,8 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
+app.base_uri = 'https://127.0.0.1/warteg_jawa/'
 
 #--------------------------------------------------------------------
 # APP

@@ -28,6 +28,18 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#telurdadar").click(function(){
+        var str = $("#inputtelurdadar").val();
+        telurdadar = str * 4000;
+        return (telurdadar);
+      });
+    });
+  </script>
+
 </head>
 
 <body>
@@ -91,7 +103,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="img/about.jpg" alt="">
+              <img src="img/about-warteg.jpg" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -125,8 +137,8 @@
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
+                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2 telurdadar">Order</button>
               </div>
             </div>
           </div>
@@ -138,7 +150,7 @@
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
                   <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
                 </div>
               
@@ -152,7 +164,7 @@
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
                   <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
               </div>
             </div>
@@ -165,7 +177,7 @@
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
                   <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
               </div>
             </div>
@@ -179,7 +191,7 @@
             <div class="menu-ingredients">
             
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
                   <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
               </div>
             </div>
@@ -196,43 +208,29 @@
           <p>Pemesanan Warteg</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <form action="" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Pesanan" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Jumlah Porsi" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Total Harga" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-              <div class="validate"></div>
-            </div>
+            
           </div>
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-            <div class="validate"></div>
-          </div>
+          
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          <div class="text-center"><button type="submit" href="https://wa.me/+6281283215772">Pesan</button></div>
         </form>
 
       </div>
