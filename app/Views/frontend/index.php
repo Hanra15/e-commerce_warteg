@@ -28,18 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- Jquery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#telurdadar").click(function(){
-        var str = $("#inputtelurdadar").val();
-        telurdadar = str * 4000;
-        return (telurdadar);
-      });
-    });
-  </script>
-
 </head>
 
 <body>
@@ -125,33 +113,33 @@
 
         <div class="section-title">
           <h2>Menu</h2>
-          <p>Menu Warteg Kami</p>
+          <p>Paket murah mulai dari 10 ribu</p>
         </div>
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="img/menu/menu_telurdadar.jpg" class="menu-img" alt="">
+            <img src="img/menu/paket1.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#" class="">Telur Dadar</a><span>Rp. 4.000,-</span>
+              <a href="#menu">Paket 1</a><span>Rp. 10.000,-</span>
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2 telurdadar">Order</button>
+                  <input type="" class="form-control" min="0" placeholder="Tempe Orek + Tongkol + Bayam" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2 telurdadar"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="img/menu/menu_tongkol.jpg" class="menu-img" alt="">
+            <img src="img/menu/paket2.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tongkol</a><span>Rp. 4.000,-</span>
+              <a href="#menu">Paket 2</a><span>Rp. 10.000,-</span>
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
+                  <input type="" class="form-control" min="0" placeholder="Tempe Orek + Urap + Jengkol" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
                 </div>
               
             </div>
@@ -160,81 +148,31 @@
           <div class="col-lg-6 menu-item filter-starters">
             <img src="img/menu/menu_oporayam.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Opor Ayam</a><span>Rp. 7.000,-</span>
+              <a href="#menu">Paket 3</a><span>Rp. 12.000,-</span>
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
+                  <input type="" class="form-control" min="0" placeholder="Opor Ayam + Urap" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
-            <img src="img/menu/menu_tempeorek.jpg" class="menu-img" alt="">
+            <img src="img/menu/paket4.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tempe Orek</a><span>Rp. 3.000,-</span>
+              <a href="#menu">Paket 4</a><span>Rp. 13.000,-</span>
             </div>
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="img/menu/menu_jengkol.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Jengkol</a><span>Rp. 4.000,-</span>
-            </div>
-            <div class="menu-ingredients">
-            
-              <div class="input-group input-group-sm">
-                  <input type="number" class="form-control" min="0" placeholder="Porsi" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2">Order</button>
+                  <input type="" class="form-control" min="0" placeholder="Ayam Bakar + Tempe Orek" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
               </div>
             </div>
           </div>
 
       </div>
     </section><!-- End Menu Section -->
-
-    <section id="book-a-table" class="book-a-table">
-      <div class="container aos-init aos-animate" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Checkout</h2>
-          <p>Pemesanan Warteg</p>
-        </div>
-
-        <form action="" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Pesanan" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Jumlah Porsi" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Total Harga" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            
-          </div>
-          
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit" href="https://wa.me/+6281283215772">Pesan</button></div>
-        </form>
-
-      </div>
-    </section>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -268,7 +206,7 @@
                 Samping perum permata bintang,<br>
                 Kab.Bogor, Cibinong, Jawa Barat, ID, 16912<br><br>
               </p>
-              <a href="https://wa.me/082123803817" target="_blank"><strong>Phone:</strong> +62 821 2380 3817<br></a>
+              <a href="https://wa.me/+6282123803817" target="_blank"><strong>Phone:</strong> +62 821 2380 3817<br></a>
               <a href="mailto:wartegcibinong@gmail.com"><strong>Email:</strong> wartegcibinong@gmail.com<br></a>
               
             </div>

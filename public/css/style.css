@@ -1005,6 +1005,12 @@ section {
 .events .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
+/*--------------------------------------------------------------
+# Tabel checout
+--------------------------------------------------------------*/
+.table-dark{
+  background-color: #cda45e;
+}
 
 /*--------------------------------------------------------------
 # Book A Table
