@@ -126,7 +126,7 @@
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
                   <input type="" class="form-control" min="0" placeholder="Tempe Orek + Tongkol + Bayam" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2 telurdadar"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2 telurdadar"><a href="https://wa.me/+6282123803817?text=Pesan%20paket%201" target="_blank">Order</a></button>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
                   <input type="" class="form-control" min="0" placeholder="Tempe Orek + Urap + Jengkol" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817?text=Pesan%20paket%202" target="_blank">Order</a></button>
                 </div>
               
             </div>
@@ -153,7 +153,7 @@
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
                   <input type="" class="form-control" min="0" placeholder="Opor Ayam + Urap" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817?text=Pesan%20paket%203" target="_blank">Order</a></button>
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@
             <div class="menu-ingredients">
               <div class="input-group input-group-sm">
                   <input type="" class="form-control" min="0" placeholder="Ayam Bakar + Tempe Orek" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817" target="_blank">Order</a></button>
+                  <button class="btn btn-outline-secondary" type="add" id="button-addon2"><a href="https://wa.me/+6282123803817?text=Pesan%20paket%204" target="_blank">Order</a></button>
               </div>
             </div>
           </div>
